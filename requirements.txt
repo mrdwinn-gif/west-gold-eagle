@@ -1,0 +1,9 @@
+# Python dependencies for west-gold-eagle (Modules A and C).
+# Versions are unpinned: pin them in deployment once integration-tested.
+stix2
+pycti
+httpx
+asyncpg
+# neo4j driver only if Module B is driven from Python instead of the
+# Neo4j Browser / cypher-shell (the Cypher file itself needs no driver).
+# neo4j
