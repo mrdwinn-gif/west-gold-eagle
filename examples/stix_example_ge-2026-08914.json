@@ -1,0 +1,53 @@
+{
+  "type": "bundle",
+  "id": "bundle--8f4e2a10-5c9b-4d3e-9a1b-7c8d9e0f1a2b",
+  "objects": [
+    {
+      "type": "vulnerability",
+      "spec_version": "2.1",
+      "id": "vulnerability--c24f9e1a-7b8d-4e5f-8a2c-9d1e2f3a4b5c",
+      "created": "2026-11-09T18:00:00.000Z",
+      "modified": "2026-11-09T18:00:00.000Z",
+      "name": "GE-2026-08914 (Pre-CVE)",
+      "description": "AI-identified heap buffer overflow in industrial Modbus TCP packet parser via crafted MBAP header length field.",
+      "confidence": 92,
+      "external_references": [
+        {
+          "source_name": "cisa-gold-eagle",
+          "external_id": "GE-2026-08914",
+          "url": "https://kb.cert.org/vince/comm/ge-2026-08914"
+        }
+      ],
+      "extensions": {
+        "extension-definition--a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d": {
+          "extension_type": "property-extension",
+          "ai_discovery_confidence": 0.94,
+          "poc_sandbox_verified": true,
+          "sarif_ast_hash": "sha256:9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+          "vex_status": "affected",
+          "vex_justification": null,
+          "ssvc_decision": "Act"
+        }
+      }
+    },
+    {
+      "type": "software",
+      "spec_version": "2.1",
+      "id": "software--4d5e6f7a-8b9c-5d6e-9f0a-1b2c3d4e5f6a",
+      "name": "libmodbus-rtu-gw",
+      "version": "3.1.8",
+      "cpe": "cpe:2.3:a:vendor:libmodbus_rtu_gw:3.1.8:*:*:*:*:*:*:*",
+      "x_purl": "pkg:generic/libmodbus-rtu-gw@3.1.8"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
+      "created": "2026-11-09T18:00:00.000Z",
+      "modified": "2026-11-09T18:00:00.000Z",
+      "relationship_type": "affects",
+      "source_ref": "vulnerability--c24f9e1a-7b8d-4e5f-8a2c-9d1e2f3a4b5c",
+      "target_ref": "software--4d5e6f7a-8b9c-5d6e-9f0a-1b2c3d4e5f6a"
+    }
+  ]
+}
