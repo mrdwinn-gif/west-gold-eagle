@@ -1,14 +1,10 @@
-# west-gold-eagle — PRIVATE / Internal only
+# west-gold-eagle — PUBLIC
 
 **WEST-DOSSIER-2026-1109 — GOLD EAGLE Federal Cyber Defense Clearinghouse &
 STIX 2.1 / VEX Telemetry Automation Architecture**
 Western Intelligence LLC (WEST), Director Daniel Patrick Winn — November 9, 2026.
 
-> **PRIVATE / Internal only. Do NOT make this repository public.**
-> The source dossier carries no Tier/Handling marking; it is treated as
-> Internal only by default under WEST Desk 3 rules until the Director
-> assigns a tier. No part of this repo is published, posted, or shared
-> outside WEST.
+> PUBLIC — open code. WEST's GOLD EAGLE design, not a federal specification.
 
 ## What this is
 
